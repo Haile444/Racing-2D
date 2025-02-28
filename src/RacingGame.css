@@ -1,0 +1,72 @@
+/* Container for the whole game */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Canvas styling */
+  canvas {
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ccc;
+  }
+  
+  /* Score and Level text */
+  h2 {
+    margin: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Game Over styling */
+  .game-over {
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Restart button */
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add padding and margin adjustments for the body */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+  }
+  
+  /* Style the score and level text for better readability */
+  .score-level {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    font-size: 20px;
+    margin: 15px;
+    padding: 0 20px;
+  }
+  
+  .score-level h2 {
+    font-size: 20px;
+  }
+  
